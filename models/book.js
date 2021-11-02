@@ -6,8 +6,8 @@ const bookSchema = new schema({
   title: String,
   authorName: String,
   publicationYear: Date,
-  Language: String,
-  Category: String,
+  language: String,
+  category: String,
 });
 
 module.exports = mongoose.model("book", bookSchema );
